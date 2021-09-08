@@ -34,6 +34,14 @@ function portifolio() {
 myWebpage.addEventListener('dblclick', portifolio)
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
+function alteraCor() {
+    myWebpage.style.color = "green"
+}
+function retornaCor() {
+    myWebpage.style.color = "white"
+}
+myWebpage.addEventListener("mouseover", alteraCor)
+myWebpage.addEventListener("mouseleave", retornaCor)
 
 // Segue abaixo um exemplo do uso de event.target:
 
