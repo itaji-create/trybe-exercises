@@ -10,9 +10,9 @@ const myWebpage = document.getElementById('my-spotrybefy');
 
 function changeClassTech (event) {
     firstLi.classList.remove("tech");
-    secondLi.classList.remove("tech")
-    thirdLi.classList.remove("tech")
-    event.target.classList.add("tech")
+    secondLi.classList.remove("tech");
+    thirdLi.classList.remove("tech");
+    event.target.classList.add("tech");
  }
  firstLi.addEventListener('dblclick', changeClassTech);
  secondLi.addEventListener('dblclick', changeClassTech);
@@ -31,18 +31,23 @@ function changeTech() {
 function portifolio() {
     window.open("https://github.com/itaji-create");
 }
-myWebpage.addEventListener('dblclick', portifolio)
+myWebpage.addEventListener('dblclick', portifolio);
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
 function alteraCor() {
-    myWebpage.style.color = "green"
+    myWebpage.style.color = "green";
 }
 function retornaCor() {
-    myWebpage.style.color = "white"
+    myWebpage.style.color = "white";
 }
-myWebpage.addEventListener("mouseover", alteraCor)
-myWebpage.addEventListener("mouseleave", retornaCor)
+myWebpage.addEventListener("mouseover", alteraCor);
+myWebpage.addEventListener("mouseleave", retornaCor);
 
+// 6. Bonus, reinicia input ao ser clicado; 
+function resetInput() {
+    input.value = '';
+}
+input.addEventListener('click', resetInput)
 // Segue abaixo um exemplo do uso de event.target:
 
 
