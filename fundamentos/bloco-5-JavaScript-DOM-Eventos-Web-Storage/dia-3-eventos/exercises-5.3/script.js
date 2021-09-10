@@ -33,7 +33,15 @@ function createDaysOfTheWeek() {
     document.getElementsByClassName('day')[12].classList.add('friday');
     document.getElementsByClassName('day')[19].classList.add('friday');
     document.getElementsByClassName('day')[26].classList.add('friday');
-  };
+  }
   createDaysOfMonth();
-  
+  let feriados = "Feriados";
+  function createFeriados(feriados) {
+    let button = document.getElementsByClassName('buttons-container')[0];
+    let cB = document.createElement('button');
+    cB.id = "btn-holiday"
+    cB.innerText = "Feriados"
+    button.appendChild(cB)
+  } 
+  createFeriados()
   
