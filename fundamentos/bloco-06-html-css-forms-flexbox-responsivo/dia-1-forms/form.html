@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <fieldset>
+            <h1>Dados Pessoais</h1>
+            <label for="name">Nome:
+            <input type="text" maxlength="40" required placeholder="Seu nome completo" name="name" id="name">
+        </label>
+        <label for="email">E-mail:
+            <input type="email" maxlength="50" required placeholder="Digite seu email" name="email" id="email">
+        </label>
+        <label for="cpf">CPF:
+            <input type="text" maxlength="11" placeholder="Digite seu CPF sem pontos ou traços." required name="cpf" id="cpf">
+        </label>
+        <br>
+        <label for="address">Endereço:
+            <input type="text" maxlength="200" required placeholder="Digite a rua em que mora." name="address" id="address">
+        </label>
+        <label for="city">Cidade:
+            <input type="text" maxlength="28" placeholder="Digite a cidade em que mora." required name="city" id="city">
+        </label>
+        <label for="state">Estado:
+            <select name="state" required id="state"></select>
+        </label>
+        <p>Onde você mora:</p>
+        <label for="home1">Casa
+            <input type="radio" name="home" required id="home1">
+        </label>
+        <label for="home2">Apartamento
+            <input type="radio" name="home" required id="home2">
+        </label>
+        </fieldset>
+        <fieldset>
+            <label for="resulm">Resumo do Currículo:
+                <textarea name="" placeholder="Digite o resumo de seu currículo aqui..." id="resulm" cols="20" rows="5"></textarea>
+            </label>
+            <br>
+            <label for="job">Último cargo:
+                <input type="text" maxlength="40" placeholder="Digite aqui seu último cargo." required id="job">
+            </label>
+            <br>
+            <label for="jobDescription">Descrição de seu último cargo:
+                <input type="text" maxlength="500" placeholder="Digite aqui uma descrição do cargo que ocupou." required id="jobDescription">
+            </label>
+            <br>
+            <label for="date">Data de início <br>
+            <input id="date" type="date"></label>
+            <hr>
+            <br>
+            <button class="btn btn-success" type="submit">Enviar</button>
+            <button class="btn btn-warning" type="reset">Reset</button>
+
+        </fieldset>
+        <script src="script.js"></script>
+    </form>
+</body>
+</html>
