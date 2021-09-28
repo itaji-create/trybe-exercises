@@ -14,7 +14,7 @@ function createDaysOfTheWeek() {
   createDaysOfTheWeek();
 
   // Escreva seu código abaixo.
-
+window.onload 
   function createDaysOfMonth() {
     const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
     const monthDaysList = document.querySelector('#days');
@@ -35,8 +35,8 @@ function createDaysOfTheWeek() {
     document.getElementsByClassName('day')[26].classList.add('friday');
   }
   createDaysOfMonth();
-  let feriados = "Feriados";
-  function createFeriados(feriados) {
+
+  function createFeriados() {
     let button = document.getElementsByClassName('buttons-container')[0];
     let cB = document.createElement('button');
     cB.id = "btn-holiday"
@@ -44,4 +44,19 @@ function createDaysOfTheWeek() {
     button.appendChild(cB)
   } 
   createFeriados()
+  
+  let holiday = document.querySelectorAll('.holiday');
+
+  for (let index = 0; index < holiday.length; index += 1) {
+    let holidays = holiday[index];
+    holidays.addEventListener('click', addColor);
+    }
+  function addColor(event) {
+    event.target.style.backgroundColor = 'green';
+  }
+  
+
+
+  
+
   

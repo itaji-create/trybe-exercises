@@ -51,7 +51,6 @@ input.addEventListener('click', resetInput)
 // Segue abaixo um exemplo do uso de event.target:
 
 
-
 function resetText(event) {
   // O Event é passado como um parâmetro para a função.
   event.target.innerText = 'Opção reiniciada';
