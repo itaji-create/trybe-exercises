@@ -8,9 +8,9 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
     <Header />
     <Content />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

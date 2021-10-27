@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Footer from './Footer';
 
 const Task = (value) => {
   return (
@@ -12,8 +13,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h2>Pink Floyd Songs</h2>
         <ul>{ pinkFloydMusics.map((music) => Task(music)) }</ul>
       </header>
+      <Footer />
     </div>
   );
 }
