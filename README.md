@@ -280,7 +280,7 @@ Alguns exemplos:
   _O token anterior é fictício_
 
 
-### 4 - Sua aplicação deve ter o endpoint POST `/:id/profiles`
+### 4 - Sua aplicação deve ter o endpoint POST `/profiles`
 
 
 - Esse endpoint deve receber um _Perfil_ no corpo da requisição e criá-lo no banco. O corpo da requisição deve ter a seguinte estrutura:
