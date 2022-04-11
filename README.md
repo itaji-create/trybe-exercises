@@ -4,7 +4,7 @@ Este repositório é dedicado a exercícios complementares fora do conteúdo do 
 
 Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do desafio a partir deste repositório, utilizando uma branch específica e um Pull Request para colocar seus códigos (este desafio não possui avaliação, mesmo sendo necessário o push do resultado final).
 
----   s
+---
 
 # Sumário
 
