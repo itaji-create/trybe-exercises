@@ -1,0 +1,30 @@
+{
+  "name": "sd-016-a-war-room-tryblans",
+  "version": "1.0.0",
+  "description": "Este repositório é dedicado a exercícios complementares fora do conteúdo do course e das aulas ao vivo #VQV",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryber/sd-016-a-war-room-tryblans.git"
+  },
+  "author": "itaji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tryber/sd-016-a-war-room-tryblans/issues"
+  },
+  "homepage": "https://github.com/tryber/sd-016-a-war-room-tryblans#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.18.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
